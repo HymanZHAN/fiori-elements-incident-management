@@ -35,7 +35,11 @@ annotate service.Incidents with @(UI: {
             $Type: 'UI.DataField',
             Value: category_code
         },
-    //insert your line item enhancement here
+        //insert your line item enhancement here
+        {
+            $Type: 'UI.DataField',
+            Value: title
+        }
 
     ],
 
